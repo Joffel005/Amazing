@@ -263,6 +263,29 @@ body{
     transform: scale(1.2); 
   }
 
+  .button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #9f7816;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-left: 650px;
+    }
+    
+    .button:hover{
+        background-color: #2a1503;
+    }
+    
+    .button:active{
+    background-color: #838118;
+    }
+
 
 
 
