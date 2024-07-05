@@ -1,0 +1,268 @@
+body, html {
+    font-family: 'Merriweather', serif;
+    color: #4E342E; 
+    margin: 0;
+    padding: 0;
+    background-color: #9f926d; 
+}
+
+h1, h2, h5, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    color: #4d3531; 
+}
+
+h2 title{
+    font-family: 'Courier New', Courier, monospace;
+}
+#hero .col h1{
+    color: white;
+    text-align: left;
+    font-family: 'Merriweather';
+}
+
+#hero .col p{
+    text-align: justify;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #de9277; 
+    position:sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar a{
+    font-family:'Times New Roman', Times, serif
+}
+.navbar-brand, .nav-link {
+    color: #3E2723!important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #3E2723 !important;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+
+#hero {
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero .col {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#hero .container{
+    width: 75%;
+    padding: 20px;
+}
+
+
+
+.card {
+    background-color: #FFFFFF; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #3E2723;
+    font-family: 'Merriweather';
+    padding-bottom: 10px;
+}
+
+.card-text {
+    color: #5D4037;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    
+}
+
+.card-body img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px; 
+}
+
+
+section h1, section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3E2723;
+}
+
+/* Benefits Section */
+.cards .card {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Coffee Beans Section */
+#Coffee-Beans .card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+#Coffee-Beans .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.BuyCoffee {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.BuyCoffee input {
+    background-color: #795548; /* Coffee brown */
+    color: white;
+    border: 1.5px solid black;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.BuyCoffee input:hover {
+    background-color: #6D4C41;
+}
+
+/* About Us Section */
+#About-Us{
+    background-color: #F5F5F5; /* Light grey */
+    padding: 60px 0;
+}
+
+#About-Us .col h1 {
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+#About-Us .col p{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+
+#About-Us img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#About-Us2{
+    background-color: #F5F5F5; 
+    padding: 60px 0;
+}
+
+#About-Us2 h1 {
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+#About-Us2 p{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+.col-md-4 .card{
+    background-color: rgb(224, 224, 224);
+}
+
+
+
+/* Contact Section */
+#contact {
+    background-color: #0000007a; 
+    padding: 30px 0;
+    text-align: center;
+}
+
+#contact h1 {
+    color: #ffffff;
+    font-family: 'Merriweather';
+}
+
+#contact p {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.benefits p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 28px;
+    padding-left: 25px;
+}
+
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+
+    .card-body img {
+        width: 50px;
+    }
+
+    .BuyCoffee input {
+        width: 100%;
+    }
+}
+
+body{
+    animation: TransitionIn 0.75s;
+}
+
+@keyframes TransitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.zoom {
+    transition: transform.1s; 
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); 
+  }
+
+
+
+
