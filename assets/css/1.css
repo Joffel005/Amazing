@@ -262,12 +262,22 @@ body{
   .zoom:hover {
     transform: scale(1.2); 
   }
-
   .button {
-    padding-left: 600px;
+    background-color: #f7f4e4; /* a warm beige color */
+    color: #57412f; /* a deep brown color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #f0eee0; /* a slightly lighter beige color */
+    color: #452b1f; /* a slightly darker brown color */
   }
 
   
-
 
 
