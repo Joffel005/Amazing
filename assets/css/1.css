@@ -263,7 +263,7 @@ body{
     transform: scale(1.2); 
   }
 
-  .button {
+  .btn btn-primary  {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -277,12 +277,12 @@ body{
     cursor: pointer;
   }
   
-  .button:hover {
+  .btn btn-primary:hover {
     background-color: #333;
     color: #ffffff;
   }
   
-  .button:active {
+  .btn btn-primary:active {
     background-color: #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
