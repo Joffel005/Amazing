@@ -262,22 +262,43 @@ body{
   .zoom:hover {
     transform: scale(1.2); 
   }
-  .button {
+  .coffee-button {
+    /* Button styles */
+    display: inline-block;
     background-color: #f7f4e4; /* a warm beige color */
     color: #57412f; /* a deep brown color */
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
-    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    cursor: pointer;
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+      padding: 10px 18px;
+      font-size: 14px;
+    }
+    
+    @media (max-width: 480px) {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
   }
   
-  .button:hover {
+  .coffee-button:hover {
     background-color: #f0eee0; /* a slightly lighter beige color */
     color: #452b1f; /* a slightly darker brown color */
   }
 
+  .coffee-button:active {
+    background-color: #e5e0d5; /* a slightly darker beige color */
+    color: #452b1f; /* a slightly darker brown color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
   
 
 
